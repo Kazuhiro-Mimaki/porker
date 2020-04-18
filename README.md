@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Porkerの役判定アプリです。
 
-Things you may want to cover:
+## 実装できた機能
 
-* Ruby version
+* Dockerで仮想環境構築
 
-* System dependencies
+* 入力値を英字と数字に分解
+→配列の要素に落とし込む&並び替え
 
-* Configuration
+* ストレート以外の役判定の実装と役名の表示
 
-* Database creation
+## 実装したいけど、できない機能
 
-* Database initialization
+* Validation
+入力値のバリデーションで正規表現がうまくできない。
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 「ストレート」
+役判定のうち、「ストレート」と「ストレートフラッシュ」の実装をどうすればいいかわからない。
